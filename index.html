@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Morozov, cv, resume">
+  <meta name="description" content="Это сайт - резюме Морозова Артёма">
+  <link rel="stylesheet" href="styles.css">
+  <title>Artem Morozov</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="info">
+      <img src="avatar.png" alt="Артём Морозов" class="avatar">
+
+      <div class="info-text">
+        <h1>Артём Морозов</h1>
+
+        <p>В настоящий момент я работаю в должности BI developer. Пройти курс Junior Frontend от <a href="http://result.school">result.school</a> меня побудило желание изучить новые технологии. Польза от курса была в том, что я систематизировал свои знания по HTML и CSS, а дальше буду подтягивать знания по JS</p>
+        <br> <p> Дата рождения: 25.08.1988</p>
+        <h4>Список социальных сетей:</h4>
+
+        <a href="#" target="_blank">Instagram</a>
+        |
+        <a href="#" target="_blank">Telegram</a>
+        |
+        <a href="#" target="_blank">Youtube</a>
+      </div>
+    </div>
+
+    <div class="card bg-blue">
+      <h2>Мои хобби</h2>
+
+      <ol class="list">
+        <li>Футбол</li>
+        <li>Путешествия</li>
+      </ol>
+    </div>
+
+    <div class="card bg-yellow">
+      <h2>Опыт работы</h2>
+
+      <table class="table">
+        <!-- <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr>
+            <td>ООО СЕНСУ</td>
+            <td>BI developer</td>
+            <td>2021 - сейчас</td>
+          </tr>
+          <tr>
+            <td>ООО Социальная Аптека</td>
+            <td>Программист-Аналитик</td>
+            <td>2018-2021</td>
+          </tr>
+          <tr>
+            <td>ООО Телеком-Экспресс</td>
+            <td>Ведущий специалист по анализу и планированию</td>
+            <td>2009-2018</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+
+    <form action="/" class="form">
+      <h2>Связаться со мной</h2>
+
+      <div class="form-row">
+
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+      </div>
+
+      <input class="btn" type="submit" value="Отправить!">
+    </form>
+
+    <br>
+
+  </div>
+</body>
+</html>
